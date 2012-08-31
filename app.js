@@ -24,13 +24,11 @@ app.configure(function(){
 
 // development only
 app.configure('development', function(){
-  console.log('This is a development environment');
   app.use(express.errorHandler());
 });
 
 // production only
 app.configure('production', function(){
-  console.log('This is a production environment');
 });
 
 app.get('/', routes.index);
