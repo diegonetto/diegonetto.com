@@ -1,6 +1,6 @@
 doctype 5
 html
-  head
+  block head
     title= title
     link(rel='stylesheet', href='/vendor/bootstrap/css/bootstrap.css')
     link(rel='stylesheet', href='/vendor/bootstrap/css/bootstrap-responsive.css')
@@ -8,5 +8,5 @@ html
     script(src='http://platform.twitter.com/widgets.js')
     | <meta name="viewport" content="width=device-width, initial-scale=1.0">
   body
-    .container
+    #main.container
       block content

@@ -1,19 +1,46 @@
 extends layout
 
+append head
+  link(rel='stylesheet', href='/stylesheets/home.css')
+
 block content
   .row-fluid
     .span12
       .row-fluid
         .hero-wrapper.span8
-          .hero-unit
+          .hero-unit.blue.light-text
             h1 Who I Am
-            p Todo
-          .hero-unit
+            ul 
+              li Recent Virginia Tech graduate. Majored in Computer Science, Minored in Math.
+              li Full Stack Engineer
+              li Web & Mobile hacker with a healthy addiction to Node.js and Backbone.js.
+              li Entrepreneur
+          .hero-unit.green.light-text
             h1 Recent Work
-            p Todo
-          .hero-unit
+            ul
+              li DebtCrun.ch
+              li Tonight-Life.com
+              li NewSpaceGlobal.com
+          .hero-unit.red.light-text
+            h1 Technologies I Love
+            ul
+              li Node.js
+              li Express.js
+              li Ruby on Rails
+              li Backbone & Underscore.js
+              li Jade
+              li HTML5 & CSS3
+              li MongoDB
+              li Nginx
+              li AWS
+          .hero-unit.orange.light-text
             h1 Contact Me
-            p Todo
+            ul
+              li diegormnetto [at] gmail [dot] com
+              li LinkedIn
+              li GitHub
+              li Twitter
+              li Tumblr Blog
         .twittr-feed.span4
           each tweet, t in tweets
             .tweet!= tweet.html
