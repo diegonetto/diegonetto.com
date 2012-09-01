@@ -1,5 +1,10 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .hero-unit
+    h1 Hello World
+    p Welcome to #{title}
+  ul.twittr-feed
+    each tweet, t in tweets
+      li!= tweet.html
+    li(style="height: 125px;width: 350px; background-color: black;")
