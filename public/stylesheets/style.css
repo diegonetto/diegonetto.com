@@ -1,8 +1,34 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image:url(/images/noise.png);
 }
 
 a {
   color: #00B7FF;
+}
+
+.light-text {
+  color: GhostWhite;
+}
+
+.dark-text {
+  color: black;
+}
+
+.orange {
+  background-color: #DB5014;
+}
+
+.red {
+  background-color: #C72840;
+
+}
+
+.blue {
+  background-color: #2D8AD6;
+}
+
+.green {
+  background-color: #71bc52
 }
