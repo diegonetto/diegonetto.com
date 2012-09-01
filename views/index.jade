@@ -1,10 +1,19 @@
 extends layout
 
 block content
-  .hero-unit
-    h1 Hello World
-    p Welcome to #{title}
-  ul.twittr-feed
-    each tweet, t in tweets
-      li!= tweet.html
-    li(style="height: 125px;width: 350px; background-color: black;")
+  .row-fluid
+    .span12
+      .row-fluid
+        .hero-wrapper.span8
+          .hero-unit
+            h1 Who I Am
+            p Todo
+          .hero-unit
+            h1 Recent Work
+            p Todo
+          .hero-unit
+            h1 Contact Me
+            p Todo
+        .twittr-feed.span4
+          each tweet, t in tweets
+            .tweet!= tweet.html
