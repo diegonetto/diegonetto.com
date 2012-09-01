@@ -23,7 +23,7 @@ exports.index = function(req, res){
 
   db.open(function(err, db) {
     db.collection('tweets', function(err, collection) {
-      collection.find().toArray(function(err, results) {
+      collection.find({}, {'limit':5, 'sort':{'created_at': -1}}).toArray(function(err, results) {
         res.render('index', { title: 'Diego Netto', tweets: results });
         db.close();
       });
