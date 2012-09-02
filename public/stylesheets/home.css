@@ -110,7 +110,24 @@
   margin-top: 7px;
 }
 
-/* Twitter Feed styling */
+/* Contact Me styles */
+.contact-methods {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact-methods h3 {
+  color: GhostWhite;
+}
+
+.contact-methods a:hover,
+.contact-methods h3:hover {
+  color: Navy !important;
+  text-decoration: none !important;
+}
+
+
+/* Twitter Feed styles */
 .twitter-feed {
   width: 100%;
 }

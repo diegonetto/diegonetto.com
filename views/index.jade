@@ -10,7 +10,7 @@ block content
         .hero-wrapper.span8
           .hero-unit.blue.light-text
             h1 Who I Am
-            h3 A recent <span class="stress">Virginia Tech</span> graduate with a major in <span class="stress">Computer Science</span> and a minor in <span class="stress">Math</span>, I wear the many hats of a <span class="stress">Full Stack Engineer</span>, <span class="stress">Entrepreneur</span>, and a <span class="stress">Web / Mobile Hacker</span> with a healthy addiciton to Node and Backbone JS.
+            h3 A <span class="stress">Virginia Tech</span> graduate with a major in <span class="stress">Computer Science</span> and a minor in <span class="stress">Math</span>, I wear the many hats of a <span class="stress">Full Stack Engineer</span>, <span class="stress">Entrepreneur</span>, and a <span class="stress">Web / Mobile Hacker</span> with a healthy addiciton to Node and Backbone JS.
           .hero-unit.green.light-text
             h1 Recent Work
             ul.thumbnails.site-screens
@@ -63,12 +63,24 @@ block content
                     img(src='/images/aws.png')
           .hero-unit.orange.light-text
             h1 Contact Me
-            ul
-              li diegormnetto [at] gmail [dot] com
-              li LinkedIn
-              li GitHub
-              li Twitter
-              li Tumblr Blog
+            .contact-methods
+              .row-fluid
+                .span6
+                  a(href='mailto:diegormnetto@gmail.com', target='_blank')
+                    h3 Email
+                .span6
+                  a(href='http://www.linkedin.com/pub/diego-netto/25/a07/8aa', target='_blank')
+                    h3 LinkedIn
+              .row-fluid
+                .span4
+                  a(href='http://github.com/diegonetto', target='_blank')
+                    h3 GitHub
+                .span4 
+                  a(href='http://twitter.com/diegonetto11', target='_blank')
+                    h3 Twitter
+                .span4 
+                  a(href='http://blog.diegonetto.com', target='_blank')
+                    h3 Tumblr
         .twitter-feed.span4
           each tweet, t in tweets
             .tweet!= tweet.html
