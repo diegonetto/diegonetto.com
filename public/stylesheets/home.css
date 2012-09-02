@@ -35,8 +35,8 @@
 }
 
 .lighten {
-   background-color: WhiteSmoke;
-   border: 1px solid #B1B1B1;
+  background-color: WhiteSmoke;
+  border: 1px solid black;
 }
 
 #nodejs {
@@ -54,9 +54,13 @@
 }
 
 #mongodb {
-  margin-top: 4px;
+  margin-top: 11px;
 }
 
 #nginx {
-  margin-top: 9px;
+  margin-top: 16px;
+}
+
+#aws {
+  margin-top: 7px;
 }
