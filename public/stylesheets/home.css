@@ -1,4 +1,4 @@
-
+/* Hero Unit section styles */
 .hero-unit {
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
                             0 10px 25px 0 rgba(0, 0, 0, 0.15);
@@ -20,10 +20,7 @@
   padding-top: 8px;
 }
 
-.tech-logo {
-
-}
-
+/* Tech I Love styles */
 .thumbnails {
   margin-top: 10px;
   margin-left: 45px !important;
@@ -40,11 +37,6 @@
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
-}
-
-.lighten {
-/*  background-color: WhiteSmoke;
-  border: 1px solid #871B2C; */
 }
 
 #nodejs {
@@ -71,4 +63,14 @@
 
 #aws {
   margin-top: 7px;
+}
+
+/* Twitter Feed styling */
+.twitter-feed {
+  width: 100%;
+}
+
+.tweet {
+  max-width: 500px;
+  margin: 0px auto !important;
 }
