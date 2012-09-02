@@ -34,9 +34,17 @@
   box-shadow: none;
 }
 
+.thumbnail img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .lighten {
-  background-color: WhiteSmoke;
-  border: 1px solid #871B2C;
+/*  background-color: WhiteSmoke;
+  border: 1px solid #871B2C; */
 }
 
 #nodejs {
@@ -58,7 +66,7 @@
 }
 
 #nginx {
-  margin-top: 16px;
+  margin-top: 22px;
 }
 
 #aws {
