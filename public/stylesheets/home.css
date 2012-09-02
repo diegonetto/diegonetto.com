@@ -25,9 +25,49 @@
   color: Navy;
 }
 
-/* Tech I Love styles */
-.thumbnails {
+/* Recent Work styles */
+.site-screens {
+  width: 100%;
+  height: auto;
   margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: -10px;
+}
+
+.site-screens .thumbnail a {
+  color: GhostWhite;
+  text-align: center;
+}
+
+.site-screens .thumbnail p {
+  font-weight: bold;
+}
+
+.site-screens .thumbnail a:hover{
+  color: Navy;
+  text-decoration: none;
+}
+
+.site-screens .thumbnail img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.site-screens p {
+  margin-top: 20px;
+}
+
+.site-screens img {
+  border: 1px solid #B1B1B1;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
+                            3px 0px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Tech I Love styles */
+.tech-logos {
   margin-left: 45px !important;
 }
 
@@ -36,7 +76,7 @@
   box-shadow: none;
 }
 
-.thumbnail img:hover {
+.tech-logos .thumbnail img:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -77,5 +117,5 @@
 
 .tweet {
   max-width: 500px;
-  margin: 0px auto !important;
+  margin: 0px auto;
 }

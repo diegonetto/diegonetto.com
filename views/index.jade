@@ -13,13 +13,22 @@ block content
             h3 A recent <span class="stress">Virginia Tech</span> graduate with a major in <span class="stress">Computer Science</span> and a minor in <span class="stress">Math</span>, I wear the many hats of a <span class="stress">Full Stack Engineer</span>, <span class="stress">Entrepreneur</span>, and a <span class="stress">Web / Mobile Hacker</span> with a healthy addiciton to Node and Backbone JS.
           .hero-unit.green.light-text
             h1 Recent Work
-            ul
-              li DebtCrun.ch
-              li Tonight-Life.com
-              li NewSpaceGlobal.com
+            ul.thumbnails.site-screens
+              li.span4
+                #debtcrunch.site.thumbnail: a(href="http://debtcrun.ch/", target="_blank")
+                  img(src='/images/newspaceglobal.png').img-rounded
+                  p DebtCrun.ch
+              li.span4
+                #tonightlife.thumbnail: a(href="http://tonight-life.com/", target="_blank")
+                  img(src='/images/newspaceglobal.png').img-rounded
+                  p Tonight-Life.com
+              li.span4
+                #newspaceglobal.thumbnail: a(href="http://www.newspaceglobal.com/", target="_blank")
+                  img(src='/images/newspaceglobal.png').img-rounded
+                  p NewSpaceGlobal.com
           .hero-unit.pink.light-text
             h1 Tech I Love
-            ul.thumbnails
+            ul.thumbnails.tech-logos
               li.span3
                 #nodejs.thumbnail
                   a(href='http://nodejs.org/', target='_blank')
