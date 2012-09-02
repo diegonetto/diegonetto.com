@@ -1,3 +1,19 @@
+.hero-unit {
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
+                            0 10px 25px 0 rgba(0, 0, 0, 0.15);
+
+  border: 1px solid #B1B1B1;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased; 
+}
+
+.hero-unit > h1 {
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.2);
+}
+
 .hero-wrapper {
   padding-top: 8px;
 }
