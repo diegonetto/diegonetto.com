@@ -1,3 +1,4 @@
+
 .hero-unit {
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
                             0 10px 25px 0 rgba(0, 0, 0, 0.15);
@@ -12,8 +13,50 @@
 
 .hero-unit > h1 {
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
 }
 
 .hero-wrapper {
   padding-top: 8px;
+}
+
+.tech-logo {
+
+}
+
+.thumbnails {
+  margin-top: 10px;
+  margin-left: 45px !important;
+}
+
+.thumbnail {
+  border: none;
+  box-shadow: none;
+}
+
+.lighten {
+   background-color: WhiteSmoke;
+   border: 1px solid #B1B1B1;
+}
+
+#nodejs {
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+#backbonejs,
+#underscorejs {
+  margin-top: 40px;
+}
+
+#html5-css3 {
+  margin-left: -30px;
+}
+
+#mongodb {
+  margin-top: 4px;
+}
+
+#nginx {
+  margin-top: 9px;
 }
