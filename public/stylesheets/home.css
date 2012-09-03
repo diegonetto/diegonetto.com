@@ -1,3 +1,9 @@
+/* Global styles */
+.thumbnail {
+  border: none;
+  box-shadow: none;
+}
+	
 /* Hero Unit section styles */
 .hero-unit {
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
@@ -68,12 +74,7 @@
 
 /* Tech I Love styles */
 .tech-logos {
-  margin-left: 45px !important;
-}
-
-.thumbnail {
-  border: none;
-  box-shadow: none;
+/*  margin-left: 45px !important; */
 }
 
 .tech-logos .thumbnail img:hover {
