@@ -3,6 +3,11 @@
   border: none;
   box-shadow: none;
 }
+
+.thumbnail img {
+  display: block;
+  margin: 0px auto;
+}
 	
 /* Hero Unit section styles */
 .hero-unit {
