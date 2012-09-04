@@ -36,12 +36,16 @@
 }
 
 .hero-wrapper {
-  padding-top: 8px;
+  padding-top: 10px;
 }
 
 /* Who I Am styles */
+.bio h3 {
+  color: Navy
+}
+
 .stress {
-  color: Navy;
+  color: GhostWhite;
 }
 
 /* Recent Work styles */
@@ -120,6 +124,13 @@
 /* Twitter Feed styles */
 .twitter-feed {
   width: 100%;
+}
+
+.twitter-feed .title {
+  text-align: center;
+  margin-top: 0px;
+  color: #2D8AD6;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .tweet {

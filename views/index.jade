@@ -8,8 +8,8 @@ block content
     .span12
       .row-fluid
         .hero-wrapper.span8
-          .hero-unit.blue.light-text
-            h1 Who I Am
+          .hero-unit.bio.blue
+            h1.light-text Who I Am
             h3 A <span class="stress">Virginia Tech</span> graduate with a major in <span class="stress">Computer Science</span> and a minor in <span class="stress">Math</span>, I wear the many hats of a <span class="stress">Full Stack Engineer</span>, <span class="stress">Entrepreneur</span>, and a <span class="stress">Web / Mobile Hacker</span> with a healthy addiciton to Node and Backbone JS.
           .hero-unit.green.light-text
             h1 Recent Work
@@ -17,15 +17,15 @@ block content
               li.span4
                 #debtcrunch.site.thumbnail: a(href="http://debtcrun.ch/", target="_blank")
                   img(src='/images/comingsoon.png').img-rounded
-                  h3 DebtCrunch
+                  h4 DebtCrunch
               li.span4
                 #tonightlife.thumbnail: a(href="http://tonight-life.com/", target="_blank")
                   img(src='/images/tonightlife.png').img-rounded
-                  h3 TonightLife
+                  h4 TonightLife
               li.span4
                 #newspaceglobal.thumbnail: a(href="http://www.newspaceglobal.com/", target="_blank")
                   img(src='/images/newspaceglobal.png').img-rounded
-                  h3 NewSpace Global
+                  h4 NewSpace Global
           .hero-unit.pink.light-text
             h1 Tech I Love
             ul.thumbnails.tech-logos
@@ -83,5 +83,6 @@ block content
                   a(href='http://blog.diegonetto.com', target='_blank')
                     h3 Tumblr
         .twitter-feed.span4
+          h3.title Interesting New Tweets
           each tweet, t in tweets
             .tweet!= tweet.html

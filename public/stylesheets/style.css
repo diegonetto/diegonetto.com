@@ -9,7 +9,7 @@ a {
 }
 
 .light-text {
-  color: GhostWhite;
+  color: GhostWhite !important;
 }
 
 .dark-text {
