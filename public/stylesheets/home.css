@@ -7,14 +7,43 @@
 .thumbnail img {
   display: block;
   margin: 0px auto;
+
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+
+  /* Put on a transition delay to avoid potential bugs,
+     especially in Chrome which sometimes flashes the parent
+     element black.. */
+  -moz-transition-delay: 0.1s;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 
 .thumbnail img:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+  box-shadow: 8px 8px 20px 0px rgba(0,0, 0, 0.4);
+
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.caption {
+  font-size: 14px !important; 
+  line-height: 16px !important; 
+  text-align:center;
+}
+
+.caption a {
+  color: GhostWhite;
+}
+
+.caption a:hover {
+  color: Navy;
 }
 	
 /* Hero Unit section styles */
@@ -22,7 +51,6 @@
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
                             0 10px 25px 0 rgba(0, 0, 0, 0.15);
   border: 1px solid #B1B1B1;
-
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
@@ -64,17 +92,16 @@
 
 .site-screens .thumbnail a:hover{
   color: Navy;
-  text-decoration: none;
 }
 
-.site-screens h3 {
+.site-screens h4 {
   margin-top: 20px;
 }
 
 .site-screens img {
   border: 1px solid #B1B1B1;
-  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15),
-                            3px 0px 6px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.4),
+                            3px 0px 6px 0px rgba(0, 0, 0, 0.4);
 }
 
 /* Tech I Love styles */
@@ -114,7 +141,7 @@
   color: GhostWhite;
 }
 
-.contact-methods a:hover,
+/*.contact-methods a:hover, */
 .contact-methods h3:hover {
   color: Navy !important;
   text-decoration: none !important;
