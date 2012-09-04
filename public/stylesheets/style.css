@@ -37,6 +37,10 @@ footer {
   color: #2D8AD6;
 }
 
+footer a:visited {
+  color: #2D8AD6;
+}
+
 footer a:hover {
   color: Navy;
   text-decoration: none;
