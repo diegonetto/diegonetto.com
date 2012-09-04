@@ -4,8 +4,14 @@ body {
   background-image:url(/images/noise.png);
 }
 
-a {
-  color: #00B7FF;
+a,
+a:visited {
+  color: #2D8AD6;
+}
+
+a:hover {
+  color: Navy;
+  text-decoration: none;
 }
 
 .light-text {
