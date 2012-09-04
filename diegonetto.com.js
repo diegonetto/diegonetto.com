@@ -20,12 +20,12 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
-  app.use(express.static(path.join(__dirname, 'public')));
 });
 
 // development only
 app.configure('development', function(){
   app.use(express.errorHandler());
+  app.use(express.static(path.join(__dirname, 'public')));
 });
 
 // production only
