@@ -33,7 +33,7 @@ app.configure('production', function(){
 });
 
 // Routing
-app.get('/', routes.index);
+app.get('/', routes.home);
 
 // Start the Twitter Updater
 // Defaults to grabbing the latest 10 Tweets every 10 minutes.
