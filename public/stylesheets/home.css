@@ -167,14 +167,6 @@
   .hero-unit {
     padding: 20px;
   }
-
-  .thumbnail img:hover {
-    transform: none;
-    -webkit-transform: none;
-       -moz-transform: none;
-        -ms-transform: none;
-         -o-transform: none;
-  }
 }
  
 /* Landscape phone to portrait tablet */
@@ -190,14 +182,6 @@
   .hero-unit {
     padding: 30px;
   }
-
-  .thumbnail img:hover {
-    transform: none;
-    -webkit-transform: none;
-       -moz-transform: none;
-        -ms-transform: none;
-         -o-transform: none;
-  }
 }
  
 /* Portrait tablet to landscape and desktop */
@@ -212,14 +196,6 @@
 
   .hero-unit {
     padding: 40px;
-  }
-
-  .thumbnail img:hover {
-    transform: none;
-    -webkit-transform: none;
-       -moz-transform: none;
-        -ms-transform: none;
-         -o-transform: none;
   }
 }
  
