@@ -107,35 +107,15 @@
 }
 
 /* Tech I Love styles */
+.tech-logos {
+  margin-top: 20px;
+}
+
 .tech-logos img{
   padding: 6px;
-  border: 2px solid GhostWhite;  
-}
-
-#nodejs {
-  margin-left: 0px;
-  margin-top: 30px;
-}
-
-#backbonejs,
-#underscorejs {
-  margin-top: 40px;
-}
-
-#html5-css3 {
-  margin-left: -30px;
-}
-
-#mongodb {
-  margin-top: 11px;
-}
-
-#nginx {
-  margin-top: 22px;
-}
-
-#aws {
-  margin-top: 7px;
+  border: 2px solid GhostWhite;
+  width: 100px;
+  height: 100px;
 }
 
 /* Contact Me styles */
