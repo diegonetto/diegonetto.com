@@ -14,4 +14,4 @@
 
 ### [Tweet updater](https://github.com/diegonetto/diegonetto.com/blob/master/lib/tweet-updater.js)
 
-This small library connects to a local MongoDB database, pulls the latest 10 Tweets from my Timeline, and fetches the oEmbed object for each one, caching them in the database.
+This small library I wrote connects to a local MongoDB database, pulls the latest 10 Tweets from my Timeline via the [Twitter API](http://dev.twitter.com/docs/api/1/get/statuses/user_timeline), fetches the [oEmbed](http://dev.twitter.com/docs/api/1/get/statuses/oembed) object for each one, and caches them in the database.
