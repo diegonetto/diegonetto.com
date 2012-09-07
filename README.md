@@ -1,8 +1,6 @@
-# diegonetto.com
+# [diegonetto.com](http://diegonetto.com/)
 
 #### The source code powering my portfolio website. 
-
-
 
 ### Key technologies used:
 - [Node.js](http://nodejs.org/)
