@@ -40,11 +40,12 @@ a:hover {
 
 footer {
   text-align: center;
-  color: #2D8AD6;
+  color: Navy;
 }
 
+footer a,
 footer a:visited {
-  color: #2D8AD6;
+  color: #DB5014;
 }
 
 footer a:hover {
