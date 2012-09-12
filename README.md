@@ -5,10 +5,10 @@
 ## Key technologies used:
 - [Node.js](http://nodejs.org/)
 - [Express.js](http://expressjs.com/)
-- [Jade](http://jade-lang.com/)
 - [Underscore.js](http://underscorejs.org/)
 - [MongoDB](https://github.com/mongodb/node-mongodb-native)
-
+- [Jade](http://jade-lang.com/)
+- [Bootstrap](http://github.com/twitter/bootstrap/)
 
 ## [Tweet Updater](https://github.com/diegonetto/diegonetto.com/blob/master/lib/tweet-updater.js)
 
