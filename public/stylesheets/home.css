@@ -132,9 +132,13 @@
 
 .contact-methods h3 {
   color: GhostWhite;
+
+ -webkit-transition: all 0.2s ease-in;
+     -moz-transition: all 0.2s ease-in;
+       -o-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in
 }
 
-/*.contact-methods a:hover, */
 .contact-methods h3:hover {
   color: Navy !important;
   text-decoration: none !important;
