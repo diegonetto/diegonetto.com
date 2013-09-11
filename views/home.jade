@@ -7,7 +7,7 @@ block content
   .row-fluid
     .span12
       .row-fluid
-        .hero-wrapper.span8
+        .hero-wrapper.span8.offset2
           .hero-unit.bio.blue
             h1.light-text Who I Am
             h3 A <span class="stress">Virginia Tech</span> graduate with a major in <span class="stress">Computer Science</span> and a minor in <span class="stress">Math</span>, I wear the many hats of a <span class="stress">Full Stack Engineer</span>, <span class="stress">Entrepreneur</span>, and a <span class="stress">Web / Mobile Hacker</span> with a healthy addiction to Node and Backbone JS.
@@ -89,6 +89,6 @@ block content
                   a(href='http://blog.diegonetto.com', target='_blank')
                     h3 Tumblr
         .twitter-feed.span4
-          h3.title Interesting New Tweets
-          each tweet, t in tweets
-            .tweet!= tweet.html
+          //h3.title Interesting New Tweets
+          //each tweet, t in tweets
+          //  .tweet!= tweet.html

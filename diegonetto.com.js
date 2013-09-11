@@ -6,8 +6,8 @@
 var express = require('express')
   , routes = require('./routes')
   , http = require('http')
-  , path = require('path')
-  , tweetUpdater = require('./lib/tweet-updater');
+  , path = require('path');
+//  , tweetUpdater = require('./lib/tweet-updater');
 
 var app = express();
 
@@ -37,7 +37,7 @@ app.get('/', routes.home);
 
 // Start the Twitter Updater
 // Defaults to grabbing the latest 10 Tweets every 10 minutes.
-tweetUpdater.start();
+//tweetUpdater.start();
 
 // Start server
 http.createServer(app).listen(app.get('port'), function(){
